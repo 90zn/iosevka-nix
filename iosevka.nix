@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs> {}, ... }:
+{ pkgs }:
 pkgs.iosevka.override {
   privateBuildPlan = {
     family          = "Iosevka Custom";
